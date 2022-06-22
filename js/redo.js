@@ -1,9 +1,9 @@
-//display 
+//display variables
 let currentTask = document.getElementById("currentTask")
 
 let displayCurrentChar = document.getElementById("displayCurrentChar")
 
-//technilcal var
+//technilcal variables
 
 let result = 0;
 
@@ -187,7 +187,7 @@ function calcOperation(){
     return result;
 }
 
-    //if you input a number after pressing an = than result resets to undefined
+    //if you input a number after pressing "=" than everything resets to default
 function resetToUndefined(){
     if (equalPress == true) {
         currentTask.textContent = "";
